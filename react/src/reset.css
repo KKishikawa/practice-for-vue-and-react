@@ -1,0 +1,24 @@
+@layer reset {
+  * {
+    box-sizing: border-box;
+  }
+  ul,
+  il {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button {
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+  }
+}

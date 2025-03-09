@@ -1,0 +1,14 @@
+.list {
+  li {
+    padding: 0.25rem;
+  }
+  li + li {
+    border-top: 1px solid #a1a1a1;
+  }
+}
+
+.striped {
+  li:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+}

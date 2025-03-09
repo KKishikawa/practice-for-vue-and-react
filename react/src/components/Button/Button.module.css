@@ -1,0 +1,44 @@
+.btn {
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0.25rem;
+}
+
+.primary {
+  background-color: #4D55CC;
+
+  &:hover {
+    background-color: #3C40C6;
+  }
+
+  &:focus {
+    outline: 2px solid #4D55CC;
+  }
+}
+
+.secondary {
+  background-color: #6C757D;
+
+  &:hover {
+    background-color: #495057;
+  }
+
+  &:focus {
+    outline: 2px solid #6C757D;
+  }
+}
+
+.danger {
+  background-color: #FF4D4F;
+
+  &:hover {
+    background-color: #FF3B3F;
+  }
+
+  &:focus {
+    outline: 2px solid #FF4D4F;
+  }
+}

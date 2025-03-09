@@ -1,0 +1,14 @@
+.list {
+  .listItem {
+    padding: 0.25rem;
+  }
+  .listItem + .listItem {
+    border-top: 1px solid #a1a1a1;
+  }
+}
+
+.striped {
+  .listItem:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+}
